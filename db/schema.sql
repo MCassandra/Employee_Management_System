@@ -18,7 +18,7 @@ id INT AUTO_INCREMENT PRIMARY KEY,
 first_name VARCHAR(30) NOT NULL,
 last_name VARCHAR(30) NOT NULL,
 role_id INT NOT NULL,
-manager_id IN
-CONSTRAINT fk_role FOREIGN KEY (role) REFERENCES role(id),
-CONSTRAINT manager FOREIGN KEY (manager) REFERENCES employee(id)
+CONSTRAINT fk_role FOREIGN KEY (role_id) REFERENCES role(id),
+manager_id INT,
+CONSTRAINT manager FOREIGN KEY (manager_id) REFERENCES employee(id)
 );
