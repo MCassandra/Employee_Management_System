@@ -170,7 +170,6 @@ function createEmployee() {
 
 
 function init() {
-    console.log('EMPLOYEE');
     mainMenu();
 }
 init();
