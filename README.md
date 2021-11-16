@@ -1,12 +1,13 @@
 # Employee_Management_System
 
 ## Description
-This application is a command-line Employee Management System using Node.js, MySQL, and Inquirer. This app takes user input to create view current employees and roles, and adds new ones. 
+This application is a command-line Employee Management System using Node.js, MySQL, and Inquirer. This app takes user input to view current employees, roles, and departments, and adds new ones. 
 
 ## How it works
 1. Clone this repository
-2. In the terminal, run node index.js
-3. Answer the questions prompted:  
+2. In the terminal paste the repository  
+3. Run node index.js
+4. Answer the questions prompted:  
     -View all departments  
     -View all employees  
     -View all roles  
