@@ -13,8 +13,8 @@ VALUES
     ("Assistant", 60000, 1);
  INSERT INTO employee (first_name, last_name, role_id, manager_id)
  VALUES
-    ("Alley", "Apples", 1, NUll),
-    ("Bruce", "Barnes", 2, NUll),
+    ("Alley", "Apples", 1, NULL),
+    ("Bruce", "Barnes", 2, NULL),
     ("Cathy", "Cuach", 3, 2),
-    ("Daniel", "DeSherpa", 5, NUll),
-    ("Elliza", "Enririquez", 3, 2);
+    ("Daniel", "DeSherpa", 5, NULL),
+    ("Elliza", "Enririquez", 3, NULL);
